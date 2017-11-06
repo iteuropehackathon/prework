@@ -1,5 +1,3 @@
-# PGIT_exercise_1
-
 ## Requirements:
     python 2.7, pip
 
