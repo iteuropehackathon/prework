@@ -1,0 +1,97 @@
+{
+  "intents": [
+    {
+      "name": "AMAZON.CancelIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.HelpIntent",
+      "samples": []
+    },
+    {
+      "name": "AMAZON.StopIntent",
+      "samples": []
+    },
+    {
+      "name": "EndGame",
+      "samples": [
+        "end",
+        "no",
+        "bye"
+      ],
+      "slots": []
+    },
+    {
+      "name": "PlayerChoice",
+      "samples": [
+        "{Choice}",
+        "My choice is {Choice}",
+        "I have chosen {Choice}",
+        "I choose {Choice}"
+      ],
+      "slots": [
+        {
+          "name": "Choice",
+          "type": "LIST_OF_CHOICES",
+          "samples": []
+        }
+      ]
+    },
+    {
+      "name": "PlayerScore",
+      "samples": [
+        "give me my game score",
+        "score",
+        "my score",
+        "what is my score",
+        "give me my score",
+        "tell me my score",
+        "tell my score"
+      ],
+      "slots": []
+    },
+    {
+      "name": "StartGame",
+      "samples": [
+        "start new game",
+        "I want to play again",
+        "new game",
+        "start",
+        "yes",
+        "new",
+        "let's play again",
+        "let's start new game",
+        "one more time"
+      ],
+      "slots": []
+    }
+  ],
+  "types": [
+    {
+      "name": "LIST_OF_CHOICES",
+      "values": [
+        {
+          "id": null,
+          "name": {
+            "value": "Rock",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Scissors",
+            "synonyms": []
+          }
+        },
+        {
+          "id": null,
+          "name": {
+            "value": "Paper",
+            "synonyms": []
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "languageModel": {
+    "types": [
+      {
+        "name": "SEARCH",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "text",
+              "synonyms": []
+            }
+          }
+        ]
+      }
+    ],
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.NoIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.YesIntent",
+        "samples": []
+      },
+      {
+        "name": "SearchIntent",
+        "samples": [
+          "find {pampers|firstsearchterm}",
+          "find {pampers|firstsearchterm} {pampers|secondsearchterm}",
+          "find {pampers|firstsearchterm} {pampers|secondsearchterm} {pampers|thirdsearchterm}"
+        ],
+        "slots": [
+          {
+            "name": "firstsearchterm",
+            "type": "AMAZON.LITERAL"
+          },
+          {
+            "name": "secondsearchterm",
+            "type": "AMAZON.LITERAL"
+          },
+          {
+            "name": "thirdsearchterm",
+            "type": "AMAZON.LITERAL"
+          }
+        ]
+      }
+    ],
+    "invocationName": "demo"
+  }
+}

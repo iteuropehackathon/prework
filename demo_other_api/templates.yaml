@@ -1,0 +1,10 @@
+all_your_base_msg: All your base are belong to {{ who }}
+
+products_list: |
+  <speak>
+      See what I found on walmart.com
+       {% for item in products %}
+        {{item.name}} price {{item.sale_price}}$
+        ...
+      {% endfor %}
+  </speak>
