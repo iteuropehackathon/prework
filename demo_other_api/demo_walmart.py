@@ -1,5 +1,5 @@
 from wapy.api import Wapy
-key = "<WALMART API KEY>" # go to https://developer.walmartlabs.com/
+key = "a27stwbzmadwz6xb7a6dx38x" # go to https://developer.walmartlabs.com/
 wapy = Wapy(key)
 
 from flask import Flask, render_template
@@ -42,3 +42,7 @@ if __name__ == '__main__':
             app.config['ASK_VERIFY_REQUESTS'] = False
     app.run(debug=True, port=8080)
 
+
+@ask.session_ended
+def session_ended():
+    return "{}", 200
