@@ -4,7 +4,7 @@
 
 ## Video Tutorials
   1)   Setting up environment - https://nbviewer.jupyter.org/github/iteuropehackathon/prework/blob/master/demo_prepare_environment.ipynb?flush_cache=true
-  2) Deploying Rock Paper Scissors game skil-  https://nbviewer.jupyter.org/github/iteuropehackathon/prework/blob/master/demo_game_tutorial.ipynb?flush_cache=true
+  2) Deploying Rock Paper Scissors game skill-  https://nbviewer.jupyter.org/github/iteuropehackathon/prework/blob/master/demo_game_tutorial.ipynb?flush_cache=true
   3) Deploying other API integration example - https://nbviewer.jupyter.org/github/iteuropehackathon/prework/blob/master/demo_walmart_tutorial.ipynb?flush_cache=true
 
 ## Bibliography:
